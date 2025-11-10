@@ -1,6 +1,6 @@
 {
-  "name": "MERN Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "name": "Speech Embedding DevContainer",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
   "features": {},
-  "postCreateCommand": "npm install"
+  "postCreateCommand": "pip install -r requirements.txt"
 }
